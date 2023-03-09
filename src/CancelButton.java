@@ -12,7 +12,7 @@ public class CancelButton extends CalculatorButton{
                 this.situation.setDisplay(0);
                 break;
             case Input1:
-                // Set l to 0
+                // Sätt displaytexten till 0
                 this.situation.setDisplay(0);
                 break;
             case Input2, OpReady:
