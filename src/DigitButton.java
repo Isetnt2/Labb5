@@ -1,3 +1,7 @@
+/*
+ * Isak Ahlberg
+ * Joline Hallberg
+ */
 public class DigitButton extends CalculatorButton{
 
     public DigitButton(String label, Situation situation){

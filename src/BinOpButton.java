@@ -1,3 +1,8 @@
+/*
+* Isak Ahlberg
+* Joline Hallberg
+*/
+
 import java.util.function.IntBinaryOperator;
 public class BinOpButton extends CalculatorButton{
     private IntBinaryOperator operator;

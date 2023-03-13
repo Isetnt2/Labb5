@@ -1,3 +1,7 @@
+/*
+ * Isak Ahlberg
+ * Joline Hallberg
+ */
 import javax.swing.*;
 import java.awt.*;
 
