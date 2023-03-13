@@ -6,10 +6,7 @@ public class EqualsButton extends CalculatorButton{
     @Override
     public void transition() {
         switch(this.situation.state) {
-            case HasResult:
-                // Gör inget
-                break;
-            case Input1:
+            case HasResult, Input1, OpReady:
                 // Gör inget
                 break;
             case Input2:
@@ -24,9 +21,6 @@ public class EqualsButton extends CalculatorButton{
                                 this.situation.getDisplay()
                         )
                 );
-                break;
-            case OpReady:
-                // Gör inget
                 break;
             default:
                 break;
